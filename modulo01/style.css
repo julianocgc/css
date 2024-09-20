@@ -1,0 +1,176 @@
+/* aula 22 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-y;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:no-repeat;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: left;} 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: center;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: right;} 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: left top;} 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: left center;} 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:repeat-x; background-position: left bottom;} 
+body {background-image: url(../pasta/arquivo.ext); background-repeat:no-repeat; background-attachment: scrool;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:no-repeat; background-attachment: fixed;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:no-repeat; background-attachment: fixed; background-size: 100% 100%;}
+body {background-image: url(../pasta/arquivo.ext); background-repeat:no-repeat; background-attachment: fixed; background-size: 300px 500px;}
+modo abreviado
+body {background: url(../pasta/arquivo.ext) center center/100% 100% no-repeat fixed;}
+body {background-color: red;}
+*/
+
+/* aula 21 
+#exemplo {width: 200px; height: 200px; background-color: red; transition-property: width; transition-duration: 2s; transition-timing-function: linear; transition-delay: 2s;}
+#exemplo:hover {width: 350px; height: 350px; background-color: green;}
+modo abreviado
+#exemplo {width: 200px; height: 200px; background-color: red; transition: width 2s linear 1s, heigth 2s linear;} 
+todos = all
+#exemplo {width: 200px; height: 200px; background-color: red; transition: all 2s linear;}
+*/
+
+/* aula 20 
+#exemplo {border-style: dotted;} 
+#exemplo {border-style: dashed;}
+#exemplo {border-style: double;}
+#exemplo {border-style: groove;}
+#exemplo {border-style: ridge;}
+#exemplo {border-style: inset;}
+#exemplo {border-style: outset;} 
+#exemplo {border-style: solid; border-width: 5px; border-color: red;} 
+#exemplo {border-top: solid 5px red;}
+#exemplo {border-left: solid 5px red;}
+#exemplo {border-right: solid 5px red;}
+#exemplo {border-bottom: solid 5px red;}
+modo abreviado 
+#exemplo {border: solid 5px red; outline: dotted 5px green;}
+*/
+
+/* aula 19
+position: absolute; left:0; top:0;
+position: absolute; right:0; bottom:0;
+position: relative;
+position: fixed;
+position: fixed; left:0; top:0;
+position: fixed; right:0; bottom:0;
+#conteudo {width: 600px; height: 1200px; background-color: red; position: relative;}
+#texto {width: 500px; background-color: green; position: absolute; left: 0; top: 0;}
+*/
+
+/* aula 18 
+#base {background-color: green; width: 600px; height: 600px;}
+#esquerda {background-color: red; width: 300px; height: 300px; float: left;}
+#direita {background-color: blue; width: 300px; height: 300px; float: right;}
+*/
+
+/* aula 17
+background:linear-gradient(cor1,cor2);
+background:linear-gradient(to right, cor1, cor2);
+background:linear-gradient(to left, cor1, cor2);
+background:linear-gradient(to top, cor1, cor2);
+background:linear-gradient(to top right, cor1, cor2);
+background:linear-gradient(to top left, cor1, cor2);
+background:radial-gradient(cor1, cor2);
+#cores {width: 200px; height: 200px; background: linear-gradient(red,blue);}
+*/
+
+/* aula 16 
+(trabalhar com códigos em hexadecimal (#0a0a0a) e rgb (rgba(000,000,000)) a = opacidade
+#cores {width: 200px; height: 200px; background-color: blue;}
+*/
+
+/* aula 15
+Google Fonts
+*/
+
+/* aula 14 
+@font-face{
+	font-family: open_sans;
+	src: url(nome_do_arquivo.woff);
+}
+*/
+
+/* aula 13
+* {font-size: 100%;} // procura a fonte no computador do usuário
+p {font-family: Times, "Times New Roman", serif; font-variant: small-caps; font-weight: bold; font-style: italic; font-size: 1em;}
+*/
+
+/* aula 12
+border-radius = todos os cantos
+border-top-left-radius = canto superior esquerdo
+border-top-right-radius = canto superior direito
+border-bottom-left-radius = canto inferior esquerdo
+border-bottom-right-radius = canto inferior direito
+#bloco {background-color: green; width: 300px; height: 150px; border-radius: 20px}
+*/
+
+/* aula 11 
+overflow = propriedades da caixa
+opacity = transparência 
+#conteudo {background-color: red; width: 300px; height: 50px; overflow: auto;}
+#conteudo p {opacity: 0.5}
+*/
+
+/* aula 10
+box-sizing = tamanho da caixa
+box-shadow = sombra da caixa
+* {box-sizing:border-box;}
+#conteudo {background-color: red; width: 300px; padding: 20px; box-shadow: 10px 10px 5px green}
+*/
+
+/* aula 08 e 09
+p {color: red; text-transform: uppercase; text-indent: 20px; line-height: 25px; direction: ltr; letter-spacing: 5px; word-spacing: 0px;}
+h1 {text-align: left; text-decoration: underline; text-shadow: 3px 3px 4px red;}
+h2 {text-align: right; text-decoration: overline;}
+h3 {text-align: center; text-decoration: line-through;}
+*/
+
+/* aula 07 
+padding = espaçamento interno
+margin = espaçamento externo
+padding-top: 10px; padding-right: 20px; padding-bottom: 30px; padding-left: 30px 
+margin-top: 20px; margin-right: 30px; margin-bottom: 20px; margin-left: 10px; 
+#exemplo-padding {background-color: green; color: #fff; width: 500px; padding: 10px 20px 30px 30px}
+#exemplo-margin {background-color: red; color:#fff; width: 500px; margin: 20px 30px 20px 10px;}
+*/
+
+/* aula 06
+quando não definimos tamanhos de altura e largura o padrão é 100%
+width = largura px ou %
+height = altura px ou %
+#conteudo {width: 500px; height: 20px; background-color: green; color: #fff; padding: 20px;}
+*/
+
+/* aula 05
+. = class (pode ser usada em vários elementos na página)
+# = id (é único - aplicado a um elemento na página)
+
+.texto-principal {color: red; text-align: center;}
+.fundo-principal {background-color: green; padding: 20px;}
+#conteudo {background-color: blue; padding:20px; color: white;}
+*/
+
+/* aula 04 
+para agrupar seletores use vírgula para separar e coloque a mesma formatação
+h1, h2, p {color: red; text-align: center;}
+*/
+
+/* aula 02 e 03
+seletor universal *
+* {margin: 0; padding: 0;color: black;}
+*/
+
+/* aula 02 e 03
+seletor tipo
+h1 {color: blue; font-size: 50px;}
+p {color: red; font-size: 12px;}
+*/
+
+/* aula 02 e 03
+seletor atributo type (poderia ser outro atributo
+input[type="text"] {width: 200px; background-color: #ccc; height: 35px; border: none;}
+input[type="email"] {width: 200px; background-color: #ccc; height: 35px; border: none;}
+input[type="submit"] {width: 50px; background-color: green; height: 35px; border: none; cursor: pointer; color:#fff;}
+*/ 
+
+/* aula 01
+h1 {color:blue;font-size:60px; font-family:tahoma;}
+*/
+
